@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+*.pem
+*.key
+
+# Uncomment these if you do not want data files tracked by Git:
+# data/raw/*
+# data/interim/*
+# data/processed/*
