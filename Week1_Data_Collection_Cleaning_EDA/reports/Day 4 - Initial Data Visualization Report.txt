@@ -1,0 +1,51 @@
+# Day 4 – Initial Data Visualization
+
+**Project:** Sales and Business Analytics Dashboard  
+**Task:** Create Initial Charts Using Matplotlib/Seaborn
+
+## 1. Objective
+
+The objective of this task is to create initial data visualizations using Python libraries such as Matplotlib and Seaborn. These charts help understand sales performance, identify trends, and compare different business categories.
+
+## 2. Tools and Libraries Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- Matplotlib
+- Seaborn
+
+## 3. Data Visualization Performed
+
+The following charts were created using the Superstore dataset:
+
+**1. Sales by Category**
+
+A bar chart was created to compare total sales across different product categories. It helps identify the contribution of each category to overall sales.
+
+**2. Sales by Region**
+
+A bar chart was created to compare total sales across different geographical regions. It helps understand regional sales performance.
+
+**3. Monthly Sales Trend**
+
+A line chart was created to visualize monthly sales over time. It helps identify changes and patterns in sales performance.
+
+**4. Sales by Customer Segment**
+
+A bar chart was created to compare total sales across different customer segments. It helps understand which customer segment contributes more to sales.
+
+## 4. Key Observations
+
+- Sales performance can be compared across different product categories.
+- Regional sales differences can be identified.
+- Monthly trends help understand changes in sales over time.
+- Customer segment analysis helps identify important customer groups.
+
+## 5. Outcome
+
+Successfully created four initial visualizations using Matplotlib and Seaborn. These charts provide a basic understanding of sales data and will support further analysis and dashboard development.
+
+## 6. Conclusion
+
+Initial data visualization helps convert raw sales data into meaningful graphical information. The created charts provide a foundation for deeper business analysis and the development of an interactive Sales and Business Analytics Dashboard.
