@@ -1,7 +1,7 @@
 # Data Quality Documentation
 
 **Project:** Sales & Business Performance Analytics Dashboard\
-**Prepared by:** Member 4 
+**Prepared by:** Member 4
 **Week:** 1
 **Review date:** 18 November 2026
 **Status:** Draft -- requires confirmation from Member 1 (Data
@@ -28,11 +28,9 @@ that may affect analysis and the dashboard.
   Reviewed with       Member 1 -- Data Collection & Data Cleaning
 
 ## 3. Data-quality review
-
 The source workbook was inspected on 18 November 2026. It contains the
 `Orders`, `People`, and `Returns` worksheets; this review uses the
 10,194-row `Orders` worksheet.
-
   ----------------------------------------------------------------------------------
   Area checked   What to inspect    Finding in     Action taken       Status
                                     this dataset                      
