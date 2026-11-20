@@ -1,0 +1,130 @@
+# Day 5 – Product and Category Performance Analysis
+
+**Project:** Sales and Business Analytics Dashboard  
+**Task:** Analyze Product and Category Performance
+
+## 1. Objective
+
+The objective of this analysis is to evaluate product and category performance based on total sales and profit. It helps identify top-performing categories, popular products, and products with lower sales.
+
+## 2. Category Performance Analysis
+
+The total sales for each category are:
+
+| Category | Total Sales |
+|---|---:|
+| Technology | 839,893.28 |
+| Furniture | 754,747.76 |
+| Office Supplies | 731,893.31 |
+
+**Key Findings:**
+- Technology is the highest-performing category with total sales of 839,893.28.
+- Furniture ranks second with sales of 754,747.76.
+- Office Supplies ranks third with sales of 731,893.31.
+
+## 3. Sub-Category Performance Analysis
+
+**Top 5 Sub-Categories by Sales:**
+
+| Sub-Category | Total Sales |
+|---|---:|
+| Chairs | 335,768.25 |
+| Phones | 331,842.64 |
+| Storage | 224,644.55 |
+| Tables | 208,020.18 |
+| Binders | 207,354.88 |
+
+**Lowest 5 Sub-Categories by Sales:**
+
+| Sub-Category | Total Sales |
+|---|---:|
+| Fasteners | 8,532.24 |
+| Labels | 12,695.04 |
+| Envelopes | 16,528.36 |
+| Art | 27,659.01 |
+| Supplies | 46,725.50 |
+
+**Key Findings:**
+- Chairs generated the highest sales among all sub-categories.
+- Phones recorded the second-highest sales.
+- Fasteners recorded the lowest sales.
+- Labels and Envelopes also showed comparatively low sales.
+
+## 4. Top 10 Products by Sales
+
+| Product Name | Total Sales |
+|---|---:|
+| Canon imageCLASS 2200 Advanced Copier | 61,599.82 |
+| Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind | 27,453.38 |
+| Cisco TelePresence System EX90 Videoconferencing Unit | 22,638.48 |
+| HON 5400 Series Task Chairs for Big and Tall | 21,870.58 |
+| GBC DocuBind TL300 Electric Binding System | 19,823.48 |
+| GBC Ibimaster 500 Manual ProClick Binding System | 19,024.50 |
+| Hewlett Packard LaserJet 3310 Copier | 18,839.69 |
+| HP Designjet T520 Inkjet Large Format Printer - 24" Color | 18,374.90 |
+| GBC DocuBind P400 Electric Binding System | 17,965.07 |
+| High Speed Automatic Electric Letter Opener | 17,030.31 |
+
+**Key Findings:**
+- Canon imageCLASS 2200 Advanced Copier is the highest-selling product.
+- Technology-related products appear prominently among the top-selling products.
+- The top product generated sales of 61,599.82.
+
+## 5. Category-wise Profit Analysis
+
+| Category | Total Profit |
+|---|---:|
+| Technology | 146,543.38 |
+| Office Supplies | 126,023.44 |
+| Furniture | 19,730.00 |
+
+**Key Findings:**
+- Technology generated the highest profit.
+- Office Supplies ranked second in profitability.
+- Furniture generated the lowest profit despite having the second-highest sales.
+- Furniture requires further investigation to understand its lower profitability.
+
+## 6. Bottom 10 Products by Sales
+
+The following products recorded the lowest sales in the analysis:
+
+| Product Name | Total Sales |
+|---|---:|
+| Eureka Disposable Bags for Sanitaire Vibra Groomer I Upright Vac | 1.62 |
+| Avery 5 | 5.76 |
+| Xerox 20 | 6.48 |
+| Grip Seal Envelopes | 7.07 |
+| Avery Hi-Liter Pen Style Six-Color Fluorescent Set | 7.70 |
+| Avery Hi-Liter Comfort Grip Fluorescent Highlighter, Yellow Ink | 7.80 |
+| Xerox 1989 | 7.97 |
+| 4009 Highlighters | 8.04 |
+| Stockwell Gold Paper Clips | 8.10 |
+| Newell 308 | 8.40 |
+
+**Key Findings:**
+- Eureka Disposable Bags recorded the lowest sales.
+- Several low-performing products belong to office supplies.
+- These products may require further analysis of demand, pricing, and inventory.
+
+## 7. Overall Business Insights
+
+1. Technology is the leading category in both sales and profit.
+2. Chairs and Phones are the strongest sub-categories based on sales.
+3. Canon imageCLASS 2200 Advanced Copier is the top-selling product.
+4. Furniture has high sales but comparatively low profit.
+5. Fasteners, Labels, and Envelopes have the lowest sub-category sales.
+6. The business should investigate product demand and profitability to improve overall performance.
+
+## 8. Recommendations
+
+- Focus on maintaining the performance of high-selling products.
+- Develop suitable marketing strategies for low-performing sub-categories.
+- Investigate Furniture category costs, discounts, and profit margins.
+- Review inventory levels based on product demand.
+- Analyze product-level profit before making pricing and promotional decisions.
+
+## 9. Conclusion
+
+Product and category performance analysis helps businesses understand sales trends, identify profitable categories, and recognize low-performing products. Technology is the strongest category in this analysis, while Furniture needs further profitability investigation. These findings can support better inventory planning, marketing strategies, and business decisions.
+
+**Tools Used:** Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook.
