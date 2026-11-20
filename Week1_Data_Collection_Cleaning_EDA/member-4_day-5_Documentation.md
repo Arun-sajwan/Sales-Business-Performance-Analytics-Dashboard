@@ -62,27 +62,27 @@ Performed analysis on:
 ### 1. Cleaned Dataset
 
 - Analysis-ready version of the original dataset.
-- Location: [`data/processed/standardized_superstore.csv`](data/processed/standardized_superstore.csv)
+- Location: [`data/processed/standardized_superstore.csv`](https://github.com/Arun-sajwan/Sales-Business-Performance-Analytics-Dashboard/blob/main/data/processed/)
 
 ### 2. Data Dictionary
 
 - Documentation describing all columns and their purpose.
-- Location: [`Week1_Data_Collection_Cleaning_EDA/data_dictionary/Superstore_Initial_Data_Dictionary.xlsx`](Week1_Data_Collection_Cleaning_EDA/data_dictionary/Superstore_Initial_Data_Dictionary.xlsx).
+- Location: [`data_dictionary/Superstore_Initial_Data_Dictionary.xlsx`](https://github.com/Arun-sajwan/Sales-Business-Performance-Analytics-Dashboard/blob/main/Week1_Data_Collection_Cleaning_EDA/data_dictionary/Superstore_Initial_Data_Dictionary.xlsx).
 
 ### 3. Data Cleaning Report
 
 - Summary of issues found and corrections applied.
-- Location: [`Week1_Data_Collection_Cleaning_EDA/cleaning/Member-4_Day-4_data_quality_documentation.md`](Week1_Data_Collection_Cleaning_EDA/cleaning/Member-4_Day-4_data_quality_documentation.md).
+- Location: [`cleaning/Member-4_Day-4_data_quality_documentation.md`](https://github.com/Arun-sajwan/Sales-Business-Performance-Analytics-Dashboard/blob/main/Week1_Data_Collection_Cleaning_EDA/cleaning/Member-4_Day-4_data_quality_documentation.md).
 
 ### 4. EDA Notebook
 
 - Contains exploratory analysis and visualizations.
-- [`Week1_Data_Collection_Cleaning_EDA/notebooks/`](Week1_Data_Collection_Cleaning_EDA/notebooks/)
+- [`notebooks/`](https://github.com/Arun-sajwan/Sales-Business-Performance-Analytics-Dashboard/tree/main/Week1_Data_Collection_Cleaning_EDA/notebooks)
 
 ### 5. Visual Assets
 
 - Charts and graphs generated during EDA.
-- Location: [`Week1_Data_Collection_Cleaning_EDA/visualizations/`](Week1_Data_Collection_Cleaning_EDA/visualizations/)
+- Location: [`visualizations/Day 4 Visuals/`](https://github.com/Arun-sajwan/Sales-Business-Performance-Analytics-Dashboard/tree/main/Week1_Data_Collection_Cleaning_EDA/visualizations/Day%204%20Visuals)
 
 ---
 
