@@ -24,7 +24,7 @@ This document records the data-quality issues identified in the sales dataset, t
 | Worksheet reviewed | `Orders` |
 | Number of rows | 10,194 |
 | Number of columns | 21 |
-| Cleaned dataset | [Not yet created](https://github.com/Arun-sajwan/Sales-Business-Performance-Analytics-Dashboard/tree/main/data/processed/) |
+| Cleaned dataset | [cleaned_superstore.csv](https://github.com/Arun-sajwan/Sales-Business-Performance-Analytics-Dashboard/tree/main/data/processed/) |
 | Reviewed with | Member 1 — Data Collection & Data Cleaning |
 
 ## 3. Data Quality Review
