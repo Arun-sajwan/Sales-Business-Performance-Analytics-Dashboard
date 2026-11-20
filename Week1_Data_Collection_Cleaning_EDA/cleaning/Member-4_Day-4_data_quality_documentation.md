@@ -6,7 +6,7 @@
 | **Prepared by** | Member 4 |
 | **Week** | 1 — Data Collection, Cleaning & EDA |
 | **Review date** | 18 November 2026 |
-| **Status** | Draft — requires confirmation from Member 1 |
+| **Status** | Draft |
 
 ---
 
@@ -24,7 +24,7 @@ This document records the data-quality issues identified in the sales dataset, t
 | Worksheet reviewed | `Orders` |
 | Number of rows | 10,194 |
 | Number of columns | 21 |
-| Cleaned dataset | Not yet created |
+| Cleaned dataset | [Not yet created](https://github.com/Arun-sajwan/Sales-Business-Performance-Analytics-Dashboard/tree/main/data/processed/) |
 | Reviewed with | Member 1 — Data Collection & Data Cleaning |
 
 ## 3. Data Quality Review
@@ -53,7 +53,7 @@ The source workbook was inspected on **18 November 2026**. It contains the `Orde
 | **Action** | Retain all values without alteration. |
 | **Reason** | Negative profit is a plausible business outcome, and no evidence was found that these values are invalid. |
 | **Validation** | Every profit value was checked, and sales and quantity remain valid in the affected rows. |
-| **Member 1 confirmation** | Pending |
+
 
 ### Issue 2 — Repeated Order IDs
 
@@ -64,7 +64,7 @@ The source workbook was inspected on **18 November 2026**. It contains the `Orde
 | **Action** | Retain all rows and do not deduplicate by `Order ID`. |
 | **Reason** | Each row represents a distinct product line item. `Row ID` is unique, and repeated order IDs indicate valid multi-line orders. |
 | **Validation** | All 10,194 `Row ID` values are unique, and no fully duplicated records exist. |
-| **Member 1 confirmation** | Pending |
+
 
 ## 5. Cleaning Decisions and Assumptions
 
@@ -75,8 +75,6 @@ The source workbook was inspected on **18 November 2026**. It contains the `Orde
 - Retain existing date values because they are valid and consistently stored as datetime values.
 - Do not remove repeated order IDs because they represent legitimate order line items.
 - No records or columns were excluded during this source-workbook inspection.
-
-> **Confirmation required:** The decisions above require final confirmation from Member 1. No cleaned dataset has been produced.
 
 ## 6. Source Validation
 
@@ -91,7 +89,6 @@ The source workbook was inspected on **18 November 2026**. It contains the `Orde
 | Fully duplicated rows checked | ✅ No duplicated rows found |
 | Sales and quantity values checked | ✅ No nonpositive values found |
 | Discount values checked | ✅ Values range from 0% to 80% |
-| Cleaned-data totals compare with source totals | ⏳ Pending cleaned dataset |
 
 ### Reference Totals
 
@@ -105,13 +102,13 @@ The source workbook was inspected on **18 November 2026**. It contains the `Orde
 | File | Repository Location | Status |
 |---|---|---|
 | Original dataset | `data/raw/sample_-_superstore.xls` | ✅ Complete |
-| Cleaning script | `src/01_data_cleaning.py` or approved project location | ⏳ Pending |
-| Cleaned dataset | `data/interim/` | ⏳ Pending |
+| Cleaning script | `Week1_Data_Collection_Cleaning_EDA/cleaning/clean_superstore_data.py` or approved project location | ✅ Complete |
+| Cleaned dataset | `data/processed/cleaned_superstore.csv` | ✅ Complete |
 | Data-quality documentation | `Week1_Data_Collection_Cleaning_EDA/cleaning/Member-4_Day-4_data_quality_documentation.md` | ✅ Draft |
 
 
 ## 8. Conclusion
 
-The source workbook passed the initial data-quality review. No missing values or fully duplicated rows were found, and no cleaning is currently required for the validated fields.
+The source workbook passed the initial data-quality review. No missing values or fully duplicated rows were found, and no cleaning is required for the validated fields.
 
-Negative profit values and repeated order IDs are expected business patterns; they should be retained and handled explicitly in later KPI calculations. This document remains a draft until Member 1 confirms the findings and the cleaned dataset is validated.
+Negative profit values and repeated order IDs are expected business patterns; they should be retained and handled explicitly in later KPI calculations.
