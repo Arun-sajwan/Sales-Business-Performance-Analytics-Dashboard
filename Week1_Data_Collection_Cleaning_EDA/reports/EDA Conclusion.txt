@@ -1,0 +1,23 @@
+========== CONCLUSION ==========
+
+Exploratory Data Analysis was successfully
+performed on the Superstore dataset.
+
+The analysis covered:
+
+1. Dataset structure and dimensions.
+2. Data types and missing values.
+3. Duplicate records.
+4. Descriptive statistics.
+5. Numerical and categorical analysis.
+6. Date and time analysis.
+7. Outlier detection.
+8. Correlation analysis.
+9. Sales and profit performance.
+10. Category, region and customer segment analysis.
+
+Business insights were generated to understand
+sales trends and overall business performance.
+
+This analysis provides a foundation for
+developing an interactive business dashboard.
