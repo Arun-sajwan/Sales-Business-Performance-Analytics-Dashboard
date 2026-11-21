@@ -121,7 +121,7 @@ Performed analysis on:
 ### 1. Cleaned Dataset
 
 - Analysis-ready version of the original dataset.
-- Location: [`data/processed/standardized_superstore.csv`](https://github.com/Arun-sajwan/Sales-Business-Performance-Analytics-Dashboard/blob/main/data/processed/)
+- Location: [`data/processed/`](https://github.com/Arun-sajwan/Sales-Business-Performance-Analytics-Dashboard/blob/main/data/processed/)
 
 ### 2. Data Dictionary
 
